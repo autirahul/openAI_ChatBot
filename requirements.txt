@@ -1,0 +1,5 @@
+streamlit==1.26.0
+streamlit-chat==0.0.2.1
+openai==0.28.0
+neo4j==5.5.0
+altair==4.2.2
