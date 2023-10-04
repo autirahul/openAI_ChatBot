@@ -23,12 +23,3 @@ def get_system_message(schema_text):
         Example cypher queries are:
         {examples}
         """
-        
-def get_sys_message_old():
-    return f"""
-You are an assistant with an ability to generate Cypher queries based off example Cypher queries.
-Example Cypher queries are: \n {examples} \n
-You do not ever apologize and strictly generate cypher statements based of the provided Cypher examples.
-Do not provide any Cypher statements that can't be inferred from Cypher examples.
-Inform the user when you can't infer the cypher statement due to the lack of context of the conversation and state what is the missing context.
-"""
